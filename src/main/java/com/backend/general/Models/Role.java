@@ -1,3 +1,5 @@
+package com.backend.general.Models;
+
 import jakarta.persistence.Entity;
 import lombok.Getter;
 import lombok.Setter;
@@ -5,6 +7,6 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-public class Role extends BaseModel{
+public class Role extends BaseModel {
     private String name;
 }
